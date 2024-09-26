@@ -1,0 +1,87 @@
+<div class="row justify-content-center my-5">
+  <div class="col-md-10">
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex justify-content-between mb-2">
+          <h4 class="header-title">Product List</h4>
+          <div>
+            <button class="btn btn-success mb-3 me-2" onclick="printTable('Product List','productTable')">Print Table</button>
+            <button class="btn btn-primary mb-3" (click)="openAddProductModal(productModal)">Add Product</button>  
+          </div>
+        </div>
+        <div class="table-responsive-sm" id="productTable">
+          <table class="table table-bordered border-primary table-centered mb-0">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Expiry Date</th>
+                <th>Date of Purchase</th>
+                <th class="text-center">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let product of productData">
+                <td>{{product.name}}</td>
+                <td>{{product.price}}</td>
+                <td>{{product.quantity}}</td>
+                <td>{{product.expiryDate}}</td>
+                <td>{{product.purchaseDate}}</td>
+                <td class="table-action text-center">
+                  <div class="d-flex  justify-content-center">
+                    <button class="btn btn-warning me-2" (click)="openEditProductModal(product, productModal)">Update</button>
+                    <button class="btn btn-danger" (click)="removeProduct(product)">Delete</button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+           <!-- Show a message if no products are present -->
+           <div *ngIf="productData.length === 0;">
+            <p class="text-center text-muted mt-2">No products available. Please add a new product.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Modal -->
+<ng-template #productModal let-modal>
+  <div class="modal-body">
+    <h3>{{modalTitle}}</h3>
+    <form [formGroup]="productForm" (ngSubmit)="submitProduct()">
+      <div class="mb-3">
+        <label for="name" class="form-label">Product Name</label>
+        <input class="form-control" type="text" id="name" formControlName="name" required />
+      </div>
+      <div class="mb-3">
+        <label for="price" class="form-label">Price</label>
+        <input class="form-control" type="number" id="price" formControlName="price" required />
+      </div>
+      <div class="mb-3">
+        <label for="quantity" class="form-label">Quantity</label>
+        <input class="form-control" type="number" id="quantity" formControlName="quantity" required />
+      </div>
+      <div class="mb-3">
+        <label for="expiryDate" class="form-label">Expiry Date</label>
+        <input class="form-control" type="date" id="expiryDate" formControlName="expiryDate" required />
+      </div>
+      <div class="mb-3">
+        <label for="purchaseDate" class="form-label">Date of Purchase</label>
+        <input class="form-control" type="date" id="purchaseDate" formControlName="purchaseDate" required />
+      </div>
+      <div class="mb-3">
+        <label for="aisleId" class="form-label">Aisle Id</label>
+        <select class="form-select" id="aisleId" formControlName="aisleId" required>
+          <option *ngFor="let aisle of aisleList" [value]="aisle.id">{{aisle.name}}</option>
+        </select>
+      </div>
+      <div class="text-center">
+        <button class="btn btn-primary me-2" type="submit">{{isEditMode ? 'Update Product' : 'Add Product'}}</button>
+        <button class="btn btn-outline-secondary" type="button" (click)="modal.dismiss('')">Cancel</button>
+      </div>
+    </form>
+  </div>
+</ng-template>

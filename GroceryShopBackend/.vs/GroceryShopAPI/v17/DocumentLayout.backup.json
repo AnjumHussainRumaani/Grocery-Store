@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|c:\\users\\dev\\source\\repos\\groceryshopapi\\groceryshopapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|solutionrelative:groceryshopapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|c:\\users\\dev\\source\\repos\\groceryshopapi\\groceryshopapi\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|solutionrelative:groceryshopapi\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|c:\\users\\dev\\source\\repos\\groceryshopapi\\groceryshopapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|solutionrelative:groceryshopapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|c:\\users\\dev\\source\\repos\\groceryshopapi\\groceryshopapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|solutionrelative:groceryshopapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|c:\\users\\dev\\source\\repos\\groceryshopapi\\groceryshopapi\\controllers\\aislecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|solutionrelative:groceryshopapi\\controllers\\aislecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|c:\\users\\dev\\source\\repos\\groceryshopapi\\groceryshopapi\\services\\aisleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|solutionrelative:groceryshopapi\\services\\aisleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|c:\\users\\dev\\source\\repos\\groceryshopapi\\groceryshopapi\\repositories\\iaislerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|solutionrelative:groceryshopapi\\repositories\\iaislerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|c:\\users\\dev\\source\\repos\\groceryshopapi\\groceryshopapi\\repositories\\aislerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|solutionrelative:groceryshopapi\\repositories\\aislerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|c:\\users\\dev\\source\\repos\\groceryshopapi\\groceryshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|solutionrelative:groceryshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|c:\\users\\dev\\source\\repos\\groceryshopapi\\groceryshopapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|solutionrelative:groceryshopapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|c:\\users\\dev\\source\\repos\\groceryshopapi\\groceryshopapi\\models\\aisle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|solutionrelative:groceryshopapi\\models\\aisle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|c:\\users\\dev\\source\\repos\\groceryshopapi\\groceryshopapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|solutionrelative:groceryshopapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|c:\\users\\dev\\source\\repos\\groceryshopapi\\groceryshopapi\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|solutionrelative:groceryshopapi\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|c:\\users\\dev\\source\\repos\\groceryshopapi\\groceryshopapi\\groceryshopapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{6BACB063-CE12-4636-8705-CBAFED39DCB1}|GroceryShopAPI\\GroceryShopAPI.csproj|solutionrelative:groceryshopapi\\groceryshopapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "GroceryShopAPI\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "GroceryShopAPI\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:32:00.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAisleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Repositories\\IAisleRepository.cs",
+              "RelativeDocumentMoniker": "GroceryShopAPI\\Repositories\\IAisleRepository.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Repositories\\IAisleRepository.cs",
+              "RelativeToolTip": "GroceryShopAPI\\Repositories\\IAisleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:31:56.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "GroceryShopAPI\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Services\\ProductService.cs",
+              "RelativeToolTip": "GroceryShopAPI\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAhwBcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:08:57.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AisleService.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Services\\AisleService.cs",
+              "RelativeDocumentMoniker": "GroceryShopAPI\\Services\\AisleService.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Services\\AisleService.cs",
+              "RelativeToolTip": "GroceryShopAPI\\Services\\AisleService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAlwCIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:46:23.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "GroceryShopAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "GroceryShopAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:45:44.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "GroceryShopAPI\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "GroceryShopAPI\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:36:35.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AisleController.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Controllers\\AisleController.cs",
+              "RelativeDocumentMoniker": "GroceryShopAPI\\Controllers\\AisleController.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Controllers\\AisleController.cs",
+              "RelativeToolTip": "GroceryShopAPI\\Controllers\\AisleController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:28:45.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Program.cs",
+              "RelativeDocumentMoniker": "GroceryShopAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Program.cs",
+              "RelativeToolTip": "GroceryShopAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:47:20.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AisleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Repositories\\AisleRepository.cs",
+              "RelativeDocumentMoniker": "GroceryShopAPI\\Repositories\\AisleRepository.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Repositories\\AisleRepository.cs",
+              "RelativeToolTip": "GroceryShopAPI\\Repositories\\AisleRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:32:44.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "GroceryShopAPI\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Models\\Product.cs",
+              "RelativeToolTip": "GroceryShopAPI\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:29:43.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Aisle.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Models\\Aisle.cs",
+              "RelativeDocumentMoniker": "GroceryShopAPI\\Models\\Aisle.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\Models\\Aisle.cs",
+              "RelativeToolTip": "GroceryShopAPI\\Models\\Aisle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:28:49.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GroceryShopAPI.http",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\GroceryShopAPI.http",
+              "RelativeDocumentMoniker": "GroceryShopAPI\\GroceryShopAPI.http",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\GroceryShopAPI.http",
+              "RelativeToolTip": "GroceryShopAPI\\GroceryShopAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-07T16:29:45.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "GroceryShopAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\appsettings.json",
+              "RelativeToolTip": "GroceryShopAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-07T16:16:23.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MongoDBSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\MongoDBSettings.cs",
+              "RelativeDocumentMoniker": "GroceryShopAPI\\MongoDBSettings.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\GroceryShopAPI\\GroceryShopAPI\\MongoDBSettings.cs",
+              "RelativeToolTip": "GroceryShopAPI\\MongoDBSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T16:16:19.388Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

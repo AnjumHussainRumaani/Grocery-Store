@@ -1,0 +1,80 @@
+<div class="row justify-content-center my-5">
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex justify-content-between mb-2">
+            <h2>Aisle List</h2>
+            <div>
+              <button class="btn btn-success mb-3 me-2" onclick="printTable('Aisle List','aisleTable')">Print Table</button>
+              <button class="btn btn-primary mb-3" (click)="openAddAisleModal(aisleModal)">Add Aisle</button>
+            </div>
+          </div>
+          <div class="table-responsive-sm" id="aisleTable">
+              <table class="table table-bordered border-primary table-centered mb-0">
+                  <thead>
+                      <tr class="text-center">
+                          <th>Name</th>
+                          <th>Products</th>
+                          <th>Actions</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr *ngFor="let aisle of aisleData">
+                          <td>{{aisle.name}}</td>
+                          <td class="text-center"><button class="btn btn-info" (click)="getProductsForAisle(aisle.id)">View Products</button></td>
+                          <td class="table-action text-center">
+                              <div class="d-flex justify-content-center">
+                                <button class="btn btn-danger" (click)="removeAisle(aisle)">Delete</button>
+                                <button class="btn btn-warning mx-2" (click)="openEditAisleModal(aisle, aisleModal)">Update</button>
+                              </div>
+                          </td>
+                      </tr>
+                  </tbody>
+              </table>
+               <!-- Show a message if no aisles are present -->
+          <div *ngIf="aisleData.length === 0;">
+            <p class="text-center text-muted mt-2">No aisles available. Please add a new aisle.</p>
+          </div>
+          </div> 
+        </div> 
+      </div> 
+    </div>
+</div>
+
+<ng-template #aisleModal let-modal>
+    <div class="modal-body">
+        <div class="auth-brand text-center mt-2 mb-4 position-relative top-0">
+            <h3>{{modalTitle}}</h3>        
+        </div>
+        <form class="ps-3 pe-3" [formGroup]="signupForm" (ngSubmit)="submitAisle()">
+            <div class="mb-3">
+                <label for="name" class="form-label">Aisle Name</label>
+                <input class="form-control" type="text" id="name" formControlName="name" placeholder="Bakery & Bread" required>
+            </div>
+            <div class="mb-3 text-center">
+                <button class="btn btn-primary me-2" type="submit">{{isEditMode ? 'Update Aisle' : 'Add Aisle'}}</button>
+                <button class="btn btn-outline-secondary" type="button" aria-label="Close" (click)="modal.dismiss('')">Cancel</button>
+            </div>
+        </form>
+    </div>
+</ng-template>
+
+<!-- Modal for displaying products in the aisle -->
+<ng-template #productListModal let-modal>
+    <div class="modal-body">
+      <h4 class="text-center">Products in {{selectedAisle?.name}} aisle</h4>
+      <div *ngIf="productsInAisle.length > 0; else noProducts">
+        <ul class="list-group">
+          <li *ngFor="let product of productsInAisle" class="list-group-item">
+            {{ product.name }} - ${{ product.price }} ({{ product.quantity }} available)
+          </li>
+        </ul>
+      </div>
+      <ng-template #noProducts>
+        <p>No products found for this aisle.</p>
+      </ng-template>
+      <div class="text-center">
+        <button class="btn btn-secondary mt-3" (click)="modal.dismiss()">Close</button>
+      </div>
+    </div>
+  </ng-template>

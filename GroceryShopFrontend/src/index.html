@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hyper - Responsive Angular and Bootstrap 5 Admin Dashboard</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+  <meta content="Coderthemes" name="author" />
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  <script src="frappe-gantt.min.js"></script>
+  <link rel="stylesheet" href="frappe-gantt.css">
+</head>
+
+<body>
+  <app-root></app-root>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
+<script>
+  function printTable(tableTitle,tableName) {
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF();
+  
+      // Get the table data
+      const table = document.getElementById(tableName);
+      const headers = [];
+      const data = [];
+  
+      // Collect headers (skipping the last one)
+      const headerCells = table.querySelectorAll('thead th');
+      headerCells.forEach((headerCell, index) => {
+          if (index < headerCells.length - 1) { // Skip the last column
+              headers.push(headerCell.innerText);
+          }
+      });
+  
+      // Collect table body rows data (skipping the last column)
+      const rows = table.querySelectorAll('tbody tr');
+      rows.forEach(row => {
+          const rowData = [];
+          const cells = row.querySelectorAll('td');
+          cells.forEach((cell, index) => {
+              if (index < cells.length - 1) { // Skip the last column
+                  rowData.push(cell.innerText);
+              }
+          });
+          data.push(rowData);
+      });
+  
+      // Set up the document content (title and table)
+      doc.text(tableTitle, 14, 20);  // PDF title
+      doc.autoTable({
+          head: [headers],
+          body: data,
+          startY: 30, // Y position after title
+      });
+  
+      // Save the PDF file
+      doc.save(tableName+'.pdf');
+  }
+</script>
+</html>

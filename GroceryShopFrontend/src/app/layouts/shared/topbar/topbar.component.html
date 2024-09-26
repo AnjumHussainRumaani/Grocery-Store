@@ -1,0 +1,45 @@
+<!-- Topbar Start -->
+<div class="navbar-custom" [class]="cssClasses">
+    <div [class]="hideLogo ? '' : 'container-fluid'">
+        <!-- LOGO -->
+        <a routerLink="/" class="topnav-logo" *ngIf="!hideLogo">
+            <span class="topnav-logo-lg">
+                <img src="assets/images/logo-light.png" alt="" height="16">
+            </span>
+            <span class="topnav-logo-sm">
+                <img src="assets/images/logo_sm_dark.png" alt="" height="16">
+            </span>
+        </a>
+
+        <button class="button-menu-mobile open-left d-none d-md-block" (click)="toggleSidebarWidth()"
+            *ngIf="layoutType==='vertical' || layoutType==='full'">
+            <i class="mdi mdi-menu open-left-icon"></i>
+        </button>
+
+        <button class="button-menu-mobile open-left disable-btn d-md-none" (click)="toggleMobileMenu($event)"
+            *ngIf="layoutType==='vertical' || layoutType==='full'">
+            <i class="mdi mdi-menu open-left-icon"></i>
+        </button>
+
+
+        <a class="navbar-toggle open-left" [ngClass]="{'open': topnavCollapsed}" (click)="toggleMobileMenu($event)"
+            *ngIf="layoutType==='horizontal'">
+            <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>
+
+        <a class="button-menu-mobile open-left disable-btn" (click)="toggleMobileMenu($event)"
+            *ngIf="layoutType==='detached'">
+            <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>
+    </div>
+
+</div>
+<!-- Topbar End -->
